@@ -1,3 +1,6 @@
+import torch
+
+print(torch.__version__)
 def add(x,y):
 	z = x+y
 	return z if z>0 else -z
